@@ -23,9 +23,10 @@ import cookieParser from "cookie-parser";
 const app= express();
 
 app.use(cors({
-    origin: 'http://localhost:5173', // React app
-    credentials: true // 👈 this allows cookies to be sent
+    origin: true,
+    credentials: true
 }));
+
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
