@@ -23,7 +23,7 @@ import cookieParser from "cookie-parser";
 const app= express();
 
 app.use(cors({
-    origin: true,
+    origin: "https://url-shortner-f-5yfy.onrender.com",
     credentials: true
 }));
 
