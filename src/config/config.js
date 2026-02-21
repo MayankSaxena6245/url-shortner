@@ -1,7 +1,7 @@
 
 export const cookieOptions = {
     httpOnly: true,
-    secure: true,
-    sameSite: "None",
+    secure: false,
+    sameSite: "Lax",
     maxAge: 1000 * 60 * 60, // 5 minutess
 }
