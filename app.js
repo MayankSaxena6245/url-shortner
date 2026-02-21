@@ -26,6 +26,7 @@ app.use(cors({
     origin: "https://url-shortner-f-5yfy.onrender.com",
     credentials: true
 }));
+app.set("trust proxy", 1);
 
 
 app.use(express.json())
